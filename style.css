@@ -1,0 +1,283 @@
+body {
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.big-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.first-box {
+  width: 400px;
+  height: 100%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.first-box_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 40px;
+}
+
+.first-box_pic {
+  display: flex;
+  justify-content: center;
+}
+
+.first-box_pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 100px peru;
+}
+
+.first-box_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-box_title h3 {
+  margin-top: 0px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.first-box_title h2 {
+  margin-bottom: 3px;
+}
+
+.first-box_btns {
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.first-box_shuffle {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.first-box_like {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.2);
+  margin-left: 5px;
+}
+
+.first-box_like_btn {
+  display: flex;
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.first-box_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 280px;
+  height: 90px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.first-box_list_info h4 {
+  margin-bottom: 4px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.first-box_list_info h3 {
+  margin-top: 0px;
+}
+
+.first-box_list_img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.first-box_list_img i {
+  position: absolute;
+  left: 130px;
+  top: 470px;
+  color: white;
+}
+
+.first-box_play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 80px;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 35px;
+  margin-top: 30px;
+  position: fixed;
+  left: 65px;
+  bottom: 40px;
+}
+
+.first-box_play_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-box_play_info h4 {
+  color: gray;
+  margin: 0px 0px 0px 20px;
+}
+
+.first-box_play_info h3 {
+  color: white;
+  margin: 5px 0px 0px 0px;
+}
+
+.first-box_play_btns {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.first-box_play_btns i {
+  margin-left: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.first-box_play_btns :nth-child(2) {
+  font-size: 25px;
+}
+
+.second-box_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 40px;
+}
+
+.second-box {
+  width: 400px;
+  height: 850px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.second-box_pic img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 20px 20px 20px papayawhip;
+}
+
+.second-box_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-box_info h4 {
+  margin-top: 0px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.second-box_info h2 {
+  margin-bottom: 8px;
+}
+
+.second-box_controlbar {
+  display: flex;
+}
+
+.second-box_controlbar_pre_bar {
+  margin-top: 15px;
+  width: 190px;
+  height: 7px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.second-box_controlbar_pre_time {
+
+  color: gray;
+  font-size: 13px;
+  
+}
+
+.second-box_controlbar_now_bar {
+  margin-top: 25px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: black;
+}
+
+.second-box_controlbar_next_time {
+
+  color: gray;
+  font-size: 13px;
+  margin-left: 80px;
+  
+}
+
+.second-box_controlbar_next_bar {
+  margin-top: 15px;
+  width: 100px;
+  height: 7px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.media_control_btns {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.media_control_playbtn {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media_control_playbtn i {
+  color: white;
+  font-size: 30px;
+}
