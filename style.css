@@ -119,8 +119,8 @@ body {
 
 .first-box_list_img i {
   position: absolute;
-  left: 130px;
-  top: 470px;
+  left: 254px;
+  top: 494px;
   color: white;
 }
 
@@ -135,8 +135,8 @@ body {
   border-radius: 35px;
   margin-top: 30px;
   position: fixed;
-  left: 65px;
-  bottom: 40px;
+  left: 185px;
+  bottom: 30px;
 }
 
 .first-box_play_info {
@@ -228,10 +228,8 @@ body {
 }
 
 .second-box_controlbar_pre_time {
-
   color: gray;
   font-size: 13px;
-  
 }
 
 .second-box_controlbar_now_bar {
@@ -243,11 +241,9 @@ body {
 }
 
 .second-box_controlbar_next_time {
-
   color: gray;
   font-size: 13px;
   margin-left: 80px;
-  
 }
 
 .second-box_controlbar_next_bar {
