@@ -1,13 +1,13 @@
 body {
   width: 1000px;
-  height: 100vh;
+  height: 900px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 .big-box {
   display: flex;
   justify-content: space-evenly;
-  width: 100vh;
+  width: 1000px;
   height: 900px;
   background-color: bisque;
 }
@@ -141,9 +141,9 @@ body {
   background-color: black;
   border-radius: 35px;
   margin-top: 30px;
-  position: fixed;
-  left: 110px;
-  bottom: 190px;
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
 }
 
 .first-box_play_info {
